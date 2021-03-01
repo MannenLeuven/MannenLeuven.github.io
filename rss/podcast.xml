@@ -37,42 +37,41 @@
             <itunes:email>mannenvanhetgoedeleuven@gmail.com</itunes:email>
         </itunes:owner>
 
-        <!--Test item verwijder dit als de eerste er is-->
         <item>
             <!--Spotify/itunes-->
-            <title>Episode 1: Cool Stuff</title>
-            <link>https://archive.org/details/MyAwesomePodcastEp1</link>
+            <title>Aflevering #1: Mercedes beter dan Hamilton en kippen in de blockchain?</title>
+	    <link>https://archive.org/details/podcast-1_202103</link>
             <description>
-                This is the one-paragraph description that you wrote in the previous step. Although the description itself needs to be plain-text in other places, you can go nuts with formatting here.
+                Hier de eerste aflevering van onze nieuwe podcast: de mannen van het goede leuven! In deze aflevering bespreken Stijn, Maarten, Quin en Kyro onder andere hoe het nieuwe formule 1 seizoen eruit gaat zien. Ook wordt het fenomeen 'Blockchainkippen' uitgelegd en komen we erachter waarom je qwerty-toetsenbord eruit ziet zoals het er nu uit ziet.
             </description>
-            <guid isPermaLink="true">https://archive.org/details/MyAwesomePodcastEp1</guid>
-            <itunes:image href="https://example.com/img/podcast_cover.jpg"/>
+	    <guid isPermaLink="true">https://archive.org/details/podcast-1_202103</guid>
+	    <itunes:image href="https://mannenleuven.github.io/img/Mannenleuvenlogo.jpg"/>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:duration>1:04:10</itunes:duration>
+	    <itunes:duration>00:45:10</itunes:duration>
 
 
 
             <!--Google podcasts-->
             <media:content
                 medium="audio"
-                url="https://archive.org/download/MyAwesomePodcastEp1/myawesomepodcast_ep1.mp3"
+		url="https://archive.org/download/podcast-1_202103/Podcast1.mp3"
                 type="audio/mpeg"
                 isDefault="true"
                 expression="full"
-                duration="3850">
+                duration="2710">
             </media:content>
-            <media:title type="plain">Episode 1: Cool Stuff</media:title>
+            <media:title type="plain">Aflevering #1: Mercedes beter dan Hamilton en kippen in de blockchain?</media:title>
             <media:description>
-                This is the one-paragraph description that you wrote in the previous step. Although the description itself needs to be plain-text in other places, you can go nuts with formatting here.
+                Hier de eerste aflevering van onze nieuwe podcast: de mannen van het goede leuven! In deze aflevering bespreken Stijn, Maarten, Quin en Kyro onder andere hoe het nieuwe formule 1 seizoen eruit gaat zien. Ook wordt het fenomeen 'Blockchainkippen' uitgelegd en komen we erachter waarom je qwerty-toetsenbord eruit ziet zoals het er nu uit ziet.
             </media:description>
-            <media:rating scheme="urn:simple">adult</media:rating>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
             <media:thumbnail url="https://mannenleuven.github.io/img/Mannenleuvenlogo.jpg"/>
             <media:keywords>
                 nederlands,jongeren,nieuws,humor,comedy,formule1,f1,limburg,grappig
             </media:keywords>
-            <enclosure url="http://archive.org/download/MyAwesomePodcastEp1/myawesomepodcast_ep1.mp3" length="73312022" type="audio/mpeg"/>
+	    <enclosure url="https://archive.org/download/podcast-1_202103/Podcast1.mp3" length="86729354" type="audio/mpeg"/>
 
-            <pubDate>Fri, 26 Jan 2018 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 1 Mar 2021 22:34:30 GMT</pubDate>
         </item>
     </channel>
 </rss>

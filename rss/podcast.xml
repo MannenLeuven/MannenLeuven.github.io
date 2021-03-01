@@ -25,7 +25,7 @@
 
         <itunes:author>Stijn</itunes:author>
         <itunes:keywords>nederlands,jongeren,nieuws,humor,comedy,formule1,f1,limburg,grappig</itunes:keywords>
-        <itunes:category text="Maatschappij & Cultuur"/>
+        <itunes:category text="Maatschappij en Cultuur"/>
         <itunes:explicit>Yes</itunes:explicit>
         <itunes:image href="http://mannenleuven.github.io/img/Mannenleuvenlogo.jpeg"/>
         <itunes:owner>

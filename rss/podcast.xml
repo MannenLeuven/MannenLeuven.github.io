@@ -37,13 +37,40 @@
             <itunes:email>mannenvanhetgoedeleuven@gmail.com</itunes:email>
         </itunes:owner>
 
+        <!--Test item verwijder dit als de eerste er is-->
         <item>
-        <title>Episode 1: Cool Stuff</title>
+            <title>Episode 1: Cool Stuff</title>
             <link>https://archive.org/details/MyAwesomePodcastEp1</link>
             <description>
                 This is the one-paragraph description that you wrote in the previous step. Although the description itself needs to be plain-text in other places, you can go nuts with formatting here.
             </description>
             <guid isPermaLink="true">https://archive.org/details/MyAwesomePodcastEp1</guid>
+
+            <media:content
+                medium="audio"
+                url="https://archive.org/download/MyAwesomePodcastEp1/myawesomepodcast_ep1.mp3"
+                type="audio/mpeg"
+                isDefault="true"
+                expression="full"
+                duration="3850">
+            </media:content>
+            <media:title type="plain">Episode 1: Cool Stuff</media:title>
+            <media:description>
+                This is the one-paragraph description that you wrote in the previous step. Although the description itself needs to be plain-text in other places, you can go nuts with formatting here.
+            </media:description>
+            <media:rating scheme="urn:simple">adult</media:rating>
+            <media:thumbnail url="https://mannenleuven.github.io/img/Mannenleuvenlogo.jpg"/>
+            <media:keywords>
+                nederlands,jongeren,nieuws,humor,comedy,formule1,f1,limburg,grappig
+            </media:keywords>
+            <enclosure url="http://archive.org/download/MyAwesomePodcastEp1/myawesomepodcast_ep1.mp3" length="73312022" type="audio/mpeg"/>
+
+
+
+
+
+
+
         </item>
     </channel>
 </rss>

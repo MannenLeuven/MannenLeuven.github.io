@@ -1,0 +1,14 @@
+<!--Template voor steinoe zodat hij zelf de rss kan updaten-->
+<item>
+    <!--Titel voor de aflevering-->
+    <title></title>
+    <!--Linkje naar de mp3-->
+    <!--https://archive.org/details/MyAwesomePodcastEp1-->
+    <link></link>
+    <!--Korte beschrijving van de aflevering-->
+    <description>
+        
+    </description>
+    <!--Precies het zelfde linkje als bij <link></link>-->
+    <guid isPermaLink="true"></guid>
+</item>

@@ -1,0 +1,33 @@
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <atom:link href="https://mannenleuven.github.io/rss/podcast.xml" rel="self" type="application/rss+xml" />
+
+        <title>Mannen van het Goede Leuven</title>
+        <link>https://mannenleuven.github.io/</link>
+        <description>Kyro dikkie</description>
+        <managingEditor>mannenvanhetgoedeleuven@gmail.com</managingEditor>
+        <webMaster>mannenvanhetgoedeleuven@gmail.com</webMaster>
+        <language>nl-nl</language>
+        <copyright>Copyright (C) 2021 Mannen van het Goede Leuven. All Rights Reserved.</copyright>
+        <creativeCommons:license>
+        https://creativecommons.org/licenses/by-nc-nd/4.0/
+        </creativeCommons:license>
+        <pubDate>Mon, 1 Mar 2021 15:13:00 GMT</pubDate>
+        <lastBuildDate>Mon, 1 Mar 2021 15:13:00 GMT</lastBuildDate>
+        <image>
+        <url>https://mannenleuven.github.io/img/podcast_cover.jpg</url>
+        <title>My Awesome Podcast</title>
+        <link>https://mannenleuven.github.io/</link>
+        </image>
+        <docs>http://www.rssboard.org/rss-specification</docs>
+
+
+
+
+
+
+
+    </channel>
+</rss>

@@ -6,47 +6,31 @@
 
         <title>Mannen van het Goede Leuven</title>
         <link>https://mannenleuven.github.io/</link>
-        <description>Kyro dikkie</description>
+        <description>In deze podcast gaan een paar 18-jarige de gebeurtenissen bespreken die ze bezighouden in het leven. Elke aflevering heeft weer een segmentje met een wisselend thema. Luister mee met deze sympathieke en hilarische gastjes!</description>
         <managingEditor>mannenvanhetgoedeleuven@gmail.com</managingEditor>
         <webMaster>mannenvanhetgoedeleuven@gmail.com</webMaster>
         <language>nl-nl</language>
         <copyright>Copyright (C) 2021 Mannen van het Goede Leuven. All Rights Reserved.</copyright>
         <creativeCommons:license>
-        https://creativecommons.org/licenses/by-nc-nd/4.0/
+            https://creativecommons.org/licenses/by-nc-nd/4.0/
         </creativeCommons:license>
         <pubDate>Mon, 1 Mar 2021 15:13:00 GMT</pubDate>
         <lastBuildDate>Mon, 1 Mar 2021 15:13:00 GMT</lastBuildDate>
         <image>
         <url>https://mannenleuven.github.io/img/Mannenleuvenlogo.jpeg</url>
-        <title>My Awesome Podcast</title>
+        <title>Mannen van het Goede Leuven</title>
         <link>https://mannenleuven.github.io/</link>
         </image>
         <docs>http://www.rssboard.org/rss-specification</docs>
 
-        <itunes:author>Ons</itunes:author>
-        <itunes:keywords>software,programming,game development,education,open source,technology</itunes:keywords>
-        <itunes:category text="Technology"/>
+        <itunes:author>Stijn</itunes:author>
+        <itunes:keywords>nederlands,jongeren,nieuws,humor,comedy,formule1,f1,limburg,grappig</itunes:keywords>
+        <itunes:category text="Maatschappij & Cultuur"/>
         <itunes:explicit>Yes</itunes:explicit>
         <itunes:image href="http://mannenleuven.github.io/img/Mannenleuvenlogo.jpeg"/>
         <itunes:owner>
             <itunes:name><![CDATA[Mannen van het Goede Leuven]]></itunes:name>
             <itunes:email>mannenvanhetgoedeleuven@gmail.com</itunes:email>
         </itunes:owner>
-
-
-
-        <item>
-            <title>Episode 1: Cool Stuff</title>
-            <link>https://archive.org/details/MyAwesomePodcastEp1</link>
-            <description>
-                This is the one-paragraph description that you wrote in the previous step. Although the description itself needs to be plain-text in other places, you can go nuts with formatting here.
-            </description>
-            <guid isPermaLink="true">https://archive.org/details/MyAwesomePodcastEp1</guid>
-        </item>
-
-
-
-
-
     </channel>
 </rss>

@@ -7,7 +7,7 @@
         <title>Mannen van het Goede Leuven</title>
         <!--Link naar de website, mogelijk later aanpassen naar een daadwerkelijke website-->
         <link>https://mannenleuven.github.io/</link>
-        <description>In deze podcast gaan een paar 18-jarige de gebeurtenissen bespreken die ze bezighouden in het leven. Elke aflevering heeft weer een segmentje met een wisselend thema. Luister mee met deze sympathieke en hilarische gastjes!</description>
+        <description>In deze podcast gaan een paar 18-jarigen de gebeurtenissen bespreken die zich bezighouden in het leven. Elke aflevering heeft weer een segmentje met een wisselend thema. Luister mee met deze sympathieke en hilarische gastjes!</description>
         <!--Email van de editor-->
         <managingEditor>mannenvanhetgoedeleuven@gmail.com</managingEditor>
         <!--Email van de website-->
@@ -30,7 +30,7 @@
         <itunes:author>Stijn, Maarten, Quin, Kyro</itunes:author>
         <itunes:keywords>nederlands,jongeren,nieuws,humor,comedy,formule1,f1,limburg,grappig</itunes:keywords>
         <itunes:category text="Maatschappij en Cultuur"/>
-        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:explicit>explicit</itunes:explicit>
         <itunes:image href="http://mannenleuven.github.io/img/Mannenleuvenlogo.jpeg"/>
         <itunes:owner>
             <itunes:name><![CDATA[Mannen van het Goede Leuven]]></itunes:name>
@@ -39,13 +39,20 @@
 
         <!--Test item verwijder dit als de eerste er is-->
         <item>
+            <!--Spotify/itunes-->
             <title>Episode 1: Cool Stuff</title>
             <link>https://archive.org/details/MyAwesomePodcastEp1</link>
             <description>
                 This is the one-paragraph description that you wrote in the previous step. Although the description itself needs to be plain-text in other places, you can go nuts with formatting here.
             </description>
             <guid isPermaLink="true">https://archive.org/details/MyAwesomePodcastEp1</guid>
+            <itunes:image href="https://example.com/img/podcast_cover.jpg"/>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:duration>1:04:10</itunes:duration>
 
+
+
+            <!--Google podcasts-->
             <media:content
                 medium="audio"
                 url="https://archive.org/download/MyAwesomePodcastEp1/myawesomepodcast_ep1.mp3"
@@ -65,12 +72,7 @@
             </media:keywords>
             <enclosure url="http://archive.org/download/MyAwesomePodcastEp1/myawesomepodcast_ep1.mp3" length="73312022" type="audio/mpeg"/>
 
-
-
-
-
-
-
+            <pubDate>Fri, 26 Jan 2018 04:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -1,5 +1,6 @@
 <!--Template voor steinoe zodat hij zelf de rss kan updaten-->
 <item>
+    <!--Spotify-->
     <!--Titel voor de aflevering-->
     <title></title>
     <!--Linkje naar de mp3-->
@@ -11,4 +12,42 @@
     </description>
     <!--Precies het zelfde linkje als bij <link></link>-->
     <guid isPermaLink="true"></guid>
+    <!--Aflevering cover foto-->
+    <itunes:image href=""/>
+    <!--Explicit clean/explicit-->
+    <itunes:explicit></itunes:explicit>
+    <!--Duration in HH:MM:SS-->
+    <itunes:duration></itunes:duration>
+
+    <!--Google podcasts-->
+    <!--Duration is in seconden-->
+    <!--http://archive.org/download/MyAwesomePodcastEp1/myawesomepodcast_ep1.mp3-->
+    <media:content
+        medium="audio"
+        url=""
+        type="audio/mpeg"
+        isDefault="true"
+        expression="full"
+        duration="">
+    </media:content>
+    <!--Titel voor de aflevering-->
+    <media:title type="plain"></media:title>
+    <!--Korte beschrijving van de aflevering-->
+    <media:description>
+    
+    </media:description>
+    <!--Is het explicit of niet (nonadult/adult)-->
+    <media:rating scheme="urn:simple">adult</media:rating>
+    <!--Thumbnail voor de aflevering-->
+    <media:thumbnail url=""/>
+    <!--Keywords voor de aflevering, veranderen indien nodig-->
+    <media:keywords>
+        nederlands,jongeren,nieuws,humor,comedy,formule1,f1,limburg,grappig
+    </media:keywords>
+    <!--Nog een keertje het linkje met mp3-->
+    <!--Length is in bytes-->
+    <enclosure url="" length="" type="audio/mpeg"/>
+
+    <!--Publicatie datum-->
+    <pubDate>Fri, 26 Jan 2018 04:00:00 GMT</pubDate>
 </item>

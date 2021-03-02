@@ -1,0 +1,77 @@
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <atom:link href="https://mannenleuven.github.io/rss/podcast.xml" rel="self" type="application/rss+xml" />
+        <!--Titel van de podcast-->
+        <title>woepsie</title>
+        <!--Link naar de website, mogelijk later aanpassen naar een daadwerkelijke website-->
+	<link>https://www.google.com</link>
+	<description>I did a woepsie</description>
+        <!--Email van de editor-->
+	<managingEditor>woepsie@gmail.com</managingEditor>
+        <!--Email van de website-->
+        <webMaster>woepsie@gmail.com</webMaster>
+        <language>nl-nl</language>
+        <copyright>Copyright (C) 2021 Woepsie inc.. All Rights Reserved.</copyright>
+        <creativeCommons:license>
+            https://creativecommons.org/licenses/by-nc-nd/4.0/
+        </creativeCommons:license>
+        <pubDate>Mon, 1 Mar 2021 15:13:00 GMT</pubDate>
+        <lastBuildDate>Mon, 1 Mar 2021 15:13:00 GMT</lastBuildDate>
+        <image>
+		<url>https://www.atomix.com.au/media/2017/07/StockPhotoBanner.jpg</url>
+            <title>Woepsie</title>
+	    <link>https://www.google.com/</link>
+        </image>
+        <docs>http://www.rssboard.org/rss-specification</docs>
+
+        <!--Itunes info voor de rss feed-->
+        <itunes:author>myself</itunes:author>
+        <itunes:keywords>nederlands,jongeren,nieuws,humor,comedy,formule1,f1,limburg,grappig</itunes:keywords>
+        <itunes:category text="Maatschappij en Cultuur"/>
+        <itunes:explicit>explicit</itunes:explicit>
+	<itunes:image href="https://www.atomix.com.au/media/2017/07/StockPhotoBanner.jpg"/>
+        <itunes:owner>
+            <itunes:name><![CDATA[Woepsie]]></itunes:name>
+            <itunes:email>woepsie@gmail.com</itunes:email>
+        </itunes:owner>
+
+        <item>
+            <!--Spotify/itunes-->
+            <title>Aflevering #1: How I did my woepsie</title>
+	    <link>https://archive.org/details/podcast-1</link>
+            <description>
+                Here I will tell you how I did a woepsie
+            </description>
+	    <guid isPermaLink="true">https://archive.org/details/podcast-1</guid>
+	    <itunes:image href="https://www.atomix.com.au/media/2017/07/StockPhotoBanner.jpg"/>
+            <itunes:explicit>clean</itunes:explicit>
+	    <itunes:duration>00:45:10</itunes:duration>
+
+
+
+            <!--Google podcasts-->
+            <media:content
+                medium="audio"
+		url="https://archive.org/download/podcast-1_202103/Pod.mp3"
+                type="audio/mpeg"
+                isDefault="true"
+                expression="full"
+                duration="2710">
+            </media:content>
+            <media:title type="plain">Aflevering #1: How I did my woepsie</media:title>
+            <media:description>
+                Here is how I did my woepsie
+            </media:description>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+	    <media:thumbnail url="https://www.atomix.com.au/media/2017/07/StockPhotoBanner.jpg"/>
+            <media:keywords>
+                nederlands,jongeren,nieuws,humor,comedy,formule1,f1,limburg,grappig
+            </media:keywords>
+	    <enclosure url="https://archive.org/download/podcast-1_202103/Pod.mp3" length="86729354" type="audio/mpeg"/>
+
+            <pubDate>Mon, 1 Mar 2021 22:34:30 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
